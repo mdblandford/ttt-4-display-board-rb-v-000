@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 def display_board(board)
   phrase = "Tic Tac Toe Board" 
   puts" #{board[0]} | #{board[1]} | #{board[2]} "
@@ -6,7 +5,7 @@ def display_board(board)
   puts" #{board[3]} | #{board[4]} | #{board[5]} "
   puts"-----------"
   puts" #{board[6]} | #{board[7]} | #{board[8]} "
-=======
+
 def display_board(board=[" "," "," "," "," "," "," "," "," "])
   phrase = "Tic Tac Toe Board" 
   puts"   |   |   "
@@ -14,5 +13,4 @@ def display_board(board=[" "," "," "," "," "," "," "," "," "])
   puts"   |   |   "
   puts"-----------"
   puts"   |   |   "
->>>>>>> 115082337d322a4002b07ad865e8b49156856730
 end
