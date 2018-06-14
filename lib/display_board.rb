@@ -6,11 +6,11 @@ def display_board(board)
   puts"-----------"
   puts" #{board[6]} | #{board[7]} | #{board[8]} "
 
-def display_board(board=[" "," "," "," "," "," "," "," "," "])
-  phrase = "Tic Tac Toe Board"
-  puts"   |   |   "
-  puts"-----------"
-  puts"   |   |   "
-  puts"-----------"
-  puts"   |   |   "
-end
+#def display_board(board=[" "," "," "," "," "," "," "," "," "])
+#  phrase = "Tic Tac Toe Board"
+#  puts"   |   |   "
+#  puts"-----------"
+#  puts"   |   |   "
+#  puts"-----------"
+#  puts"   |   |   "
+#end
